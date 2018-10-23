@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <title>Lists</title>
+    
+    <style>
+        body {
+            background-color: #1b6638;
+            font-family: arial, helvetica, sans-serif;
+            color: #212121;
+        }
+
+        dt {
+            font-weight: bold;
+            color: rgb(0, 12, 121);
+            line-height: 2;
+        }
+
+        
+        ul li {
+            list-style-type: circle;
+        }
+
+        ul  li  ul li {
+            list-style-type: square;
+        }
+
+        .container {
+            min-height: 100px;
+            max-width: 960px;
+            background-color: #ffffff;;
+            border-radius: 5%;
+            border: 6px solid #87fff3;
+            margin: 15px auto;
+            padding: 5px 10px 10px 15px;
+        }
+
+        h2 {
+            text-align: center;
+            color: rgb(60, 83, 81);
+        }
+    </style>
+
+</head>
+
+<body>
+<div class="container">
+    <h2>Unordered list Favorite musicians</h2>
+    <ul>
+
+        <li>Taylor Swift</li>
+        <li>Hans Zimmer
+            <ul>
+                <li>The Dark Knight sound track</li>
+                <li>Batman v Superman: Dawn of Justice sound track</li>
+            </ul>
+        </li>
+        <li>John Williams
+                <ul>
+                    <li>Star Wars sound track</li>
+                    <li>Indiana Jones sound track</li>
+                </ul>
+            </li>
+    </ul>
+</div>
+<div class="container">
+    <h2>Ordered list Favorite actors</h2>
+    <ol type="A">
+
+        <li>Ben Affleck</li>
+        <li>Christian Bale
+            <ol type="i">
+                <li>The Dark Knight Trilogy</li>
+                <li>Rescue Dawn</li>
+            </ol>
+        </li>
+    </ol>
+
+</div>
+<div class="container">
+    <h2> Description List</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HTML stands for Hypertext Markup Language. It is the language used to code and create web pages.</dd>
+        <dt>CSS</dt>
+        <dd>CSS stands for Cascading Style Sheets. It is the code that changes colors and fonts in HTML.</dd>
+        <dt>Java Script</dt>
+        <dd>Javascript is the language used by HTML. 
+            Javascript allows for changes to be made to the scripting allowing for greater user interactivity.</dd>
+        <dt>PHP</dt>
+        <dd>PHP can be embedded in HTML. 
+            The three main reasons PHP is used is server side scripting, 
+            command line scripting, and writing desktop applications.</dd>
+        <dt>Accessability</dt>
+        <dd>Accessability for web development is how well your website can work when used by people with disabilities.</dd>
+    </dl>
+
+</div>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+    background: #5D4037;
+}
+
+.container {
+    max-width: 960px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 0.5px solid #D7Ccc8;
+    background: white;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #5D4037;
+    padding: 10px;
+    font-family: cursive;
+}
+
+h2 {
+    color: #FF5722;
+}
+
+p {
+    padding: 10px 20px;
+    color: #212121;
+}
+
+.splash {
+    width: 15%;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+
+#lightpurple {
+    background: rgb(137, 77, 143);
+}
+
+#purple {
+    background: rgb(112, 0, 97);
+}
+
+#black {
+    background: #000000;
+}
+
+#orange {
+    background: rgb(180, 72, 39);
+}
+
+#red {
+    background: #ff0000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #795548;
+}
+
+a:visited {
+    color: #5D4037;
+}
+
+header {
+    background: #795548;
+    font-weight: 800;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}

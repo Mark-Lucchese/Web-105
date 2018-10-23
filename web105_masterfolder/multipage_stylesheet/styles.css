@@ -1,0 +1,68 @@
+body {
+    background: url(background.jpg) no-repeat center center fixed;
+    font-family: sans-serif;
+    color: #212121; 
+    background-size: auto;
+    width: auto;
+    height: auto;}
+container {
+    max-width: 960px;
+    background: rgba(248, 209, 34, 0.98);
+    border: 3px solid rgb(3, 3, 3);
+    border-radius: 5px;
+    padding: 0;
+    margin: 5px auto;}
+
+header {
+    background-image: url(pumpkin.png);
+    background-size: 10px;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 10px; }
+
+header h1 {
+    font-size: 3em;
+    color: #00000050;
+    text-align: right;
+    font-family: fantasy;
+    padding: 30px; }
+        
+main {
+    padding: 25px; }
+
+#bat {
+    float: right;
+    width: 40%;
+    height: auto;
+    padding: 15px; }
+            
+h1,
+h2,
+h3 {
+  color: rgb(0, 0, 0); }
+             
+p {
+    padding-left: 40px;
+    font-size: 1.4em; }
+
+    nav {
+        text-align: right;
+        padding: 20px; }
+    
+        nav a {
+          font-size: 1.5em;
+          color: rgb(3, 3, 3);
+          font-weight: 400;
+          background: rgba(248, 209, 34, 0.98);
+          text-decoration: none;
+          padding: 10px 20px;
+          margin: 5px 10px;
+          border-radius: 20px; }
+
+        nav a:hover {
+          background: rgb(255, 255, 255);
+          color: #FFFFFF; }
+
+
